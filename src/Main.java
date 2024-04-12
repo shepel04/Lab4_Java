@@ -66,12 +66,12 @@ public class Main {
             philosopher.start();
         }
 
-        for (Philosopher philosopher : philosophers) {
+        /*for (Philosopher philosopher : philosophers) {
             try {
-                philosopher.join();
+               philosopher.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
     }
 }
